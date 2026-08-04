@@ -211,7 +211,7 @@ function AnalisisModal({
                 </span>
               </div>
               <div>
-                <Chip color={step.color}>Análisis {step.num}</Chip>
+                <Chip color={step.color}>{`Análisis ${step.num}`}</Chip>
               </div>
             </div>
             <h3 className="font-sora text-xl md:text-2xl font-bold text-on-surface mb-1">

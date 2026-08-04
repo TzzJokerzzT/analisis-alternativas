@@ -521,7 +521,6 @@ export function Slide08bSintesis({
               confidence={confidence}
               riskLevel={riskLevel}
               margin={margin}
-              winner={winner}
             />
           </SintesisModal>
         )}
@@ -958,13 +957,11 @@ function ComparisonModalContent({
 function NextStepsModalContent({
   confidence,
   riskLevel,
-  margin,
-  winner
+  margin
 }: {
   confidence: string;
   riskLevel: string;
   margin: number;
-  winner: Alternative;
 }) {
   const steps = {
     alta: [
